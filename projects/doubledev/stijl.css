@@ -1,0 +1,90 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+
+    margin: auto;
+    font-family: sans-serif;
+}
+
+img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 80vw;
+    height: auto;
+    margin: auto;
+}
+
+ul {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+ul li {
+
+    margin: auto;
+    margin-top: 50px;
+}
+
+#hgh {
+    color: white;
+    border: solid #ef6c00 1px;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ef6c00;
+    font-size: 50px;
+    transition: .5s ease;
+}
+
+#hgh:hover {
+    border: solid #ffa726 1px;
+    border-radius: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffa726;
+    font-size: 55px;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#team {
+    color: white;
+    border: solid #ef6c00 1px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ef6c00;
+    font-size: 50px;
+    transition: .5s ease;
+}
+
+#team:hover {
+    border: solid #ffa726 1px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ffa726;
+    font-size: 55px;
+    transition: .5s ease;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
